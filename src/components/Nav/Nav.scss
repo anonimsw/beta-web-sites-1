@@ -1,0 +1,138 @@
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    background: url(../../assets/gl-bg.png), ;
+    background-color: #fff;
+    padding: 0.5rem 0;
+    z-index: 4;
+    width: 100%;
+
+    .nav--container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link--home {
+            width: 5%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            li {
+                font-size: 12px;
+                font-weight: normal;
+            }
+        }
+
+        a {
+            color: #000;
+        }
+
+        .bars {
+            position: relative;
+            display: none;
+
+            .bla {
+                background: #1c1c1c;
+                padding: 45px 50px;
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    font-size: 14px;
+                    padding: 15px 0;
+                    color: #fff;
+                    font-weight: 500;
+                    border-bottom: 1px solid #3e3e3e;
+                }
+
+                dt {
+                    margin: 0 10px 0 0;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    padding: 15px 0;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 10px 0;
+
+                        p {
+                            font-size: 12px;
+                            color: #e54b4b;
+
+                            &:hover {
+                                color: #adadad;
+                            }
+
+                            &:active {
+                                color: #adadad;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .css-i4bv87-MuiSvgIcon-root {
+            fill: #000 !important;
+        }
+    }
+}
+
+.nav--scroll {
+    transition: all 0.3s ease;
+    padding: 1rem 0;
+    background: none;
+    z-index: 4;
+    width: 100%;
+    overflow: hidden;
+
+    .nav--container {
+        a {
+            color: #fff;
+        }
+
+        .css-i4bv87-MuiSvgIcon-root {
+            opacity: 1 !important;
+            fill: #fff !important;
+        }
+    }
+}
+
+@media all and (max-width:900px) {
+    nav {
+
+        .container {
+
+            .link--home {
+                width: 12%;
+            }
+
+            ul {
+                display: none;
+            }
+
+            .bars {
+                display: flex;
+
+                .bla {
+                    width: 220px !important;
+
+                }
+            }
+        }
+    }
+}
