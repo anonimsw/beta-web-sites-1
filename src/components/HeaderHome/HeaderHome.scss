@@ -500,20 +500,23 @@
 @media all and (max-width:900px) {
     .header--home {
         padding-bottom: 770px;
+
         .header--block--1 {
             .header--top {
                 img {
-                    height: 120vh;
+                    height: 70vh;
                 }
 
                 h2 {
-                    font-size: 50px;
+                    font-size: 30px;
                 }
             }
         }
 
         .header--block--2 {
             .container {
+                gap: 2.5rem;
+
                 .block--top {
                     flex-direction: column;
                     gap: 1rem;
@@ -533,7 +536,7 @@
 
                     .block--right {
                         span {
-                            font-size: 26px;
+                            font-size: 22px;
                         }
 
                         p {
@@ -568,10 +571,17 @@
                     grid-template-columns: repeat(2, 1fr);
 
                     .card {
+                        gap: 0;
+
+                        img {
+                            height: 200px;
+                        }
+
                         .card--text {
                             p {
                                 small {
                                     font-size: 14px;
+
                                 }
                             }
                         }
@@ -583,7 +593,6 @@
         .header--block--4 {
             .container {
                 .block--bottom {
-
                     .item {
                         width: 45%;
 
@@ -595,12 +604,18 @@
             }
         }
 
+
         .block--top {
             h2 {
                 font-size: 70px;
 
                 small {
                     font-size: 14px;
+                    padding: 0 0 0 30px;
+
+                    &::after {
+                        width: 20px;
+                    }
                 }
             }
         }
@@ -635,5 +650,25 @@
             }
         }
 
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header--home {
+        padding-bottom: 425px;
+
+        .header--block--4 {
+            .container {
+                gap: 2.5rem;
+
+                .block--bottom {
+                    flex-direction: column;
+
+                    .item {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
