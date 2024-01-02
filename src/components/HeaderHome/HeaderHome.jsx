@@ -296,11 +296,6 @@ const HeaderHome = () => {
                                 НАШЫ ТОВАРЫ
                             </small>
                         </h2>
-                        <button>
-                            <a href="">
-                                УЗНАТЬ БОЛЬШЕ
-                            </a>
-                        </button>
                     </div>
                     <div className="block--bottom">
                         <div className='card'>

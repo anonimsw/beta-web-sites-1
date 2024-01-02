@@ -1,11 +1,7 @@
 footer {
     background: url(../../assets/footer.png) #1d1d1d no-repeat;
     background-size: 100% 100%;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
+
     .footer--top {
         display: flex;
         justify-content: space-between;
@@ -28,6 +24,7 @@ footer {
                 letter-spacing: 0.4px;
                 width: 100%;
                 overflow: hidden;
+
                 &:before {
                     position: absolute;
                     display: block;
