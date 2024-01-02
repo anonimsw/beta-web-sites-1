@@ -1,4 +1,4 @@
-nav {
+.nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -85,10 +85,6 @@ nav {
                 }
             }
         }
-        .css-i4bv87-MuiSvgIcon-root {
-            fill: #1c1c1c;
-        }
-        
     }
 }
 
@@ -104,15 +100,11 @@ nav {
         a {
             color: #fff;
         }
-        .css-i4bv87-MuiSvgIcon-root {
-            fill: #fff !important;
-        }
     }
 }
 
 @media all and (max-width:900px) {
-    nav {
-
+    .nav {
         .container {
 
             .link--home {
@@ -126,9 +118,22 @@ nav {
             .bars {
                 display: flex;
 
+                .css-i4bv87-MuiSvgIcon-root {
+                    color: #3e3e3e !important;
+                }
+
                 .bla {
                     width: 220px !important;
+                }
+            }
+        }
+    }
 
+    .nav--scroll {
+        .container {
+            .bars {
+                .css-i4bv87-MuiSvgIcon-root {
+                    color: #adadad !important;
                 }
             }
         }
