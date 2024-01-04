@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../HeaderHome/HeaderHome.scss'
 import background from '../../assets/promo.jpg'
 import companiy from '../../assets/about.jpg'
@@ -6,24 +6,31 @@ import men from '../../assets/men.png'
 import ladies from '../../assets/ladies.png'
 import total from '../../assets/total.png'
 import cadelta from '../../assets/cadelta.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HeaderHome = () => {
+    
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <header className="header--home">
             <div className='header--block--1'>
                 <div className="header--top">
                     <img src={background} alt="" />
-                    <h2>
+                    <h2 data-aos="fade-down">
                         <span>МЫ ПРОИЗВОДИМ </span> ИСПОЛЬЗУЯ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ!
                     </h2>
                 </div>
                 <p></p>
             </div>
-            <div className="header--block--all--1 header--block--2">
+            <div className="header--block--all--1 header--block--2" >
                 <div className="container ">
                     <div className="block--top">
-                        <div className="block--left">
+                        <div className="block--left" data-aos="fade-right"  >
                             <div className="left--fragment">
                                 <img src={companiy} alt="" />
                                 <p>
@@ -36,7 +43,7 @@ const HeaderHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="block--right">
+                        <div className="block--right" data-aos="fade-left"  >
                             <div className="block--tot">
                                 <h2>
                                     01
@@ -54,7 +61,7 @@ const HeaderHome = () => {
                         </div>
                     </div>
                     <div className="block--bottom">
-                        <div className="item">
+                        <div className="item" data-aos="fade-right"  >
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 id="Layer_5"
                                 enableBackground="new 0 0 64 64"
@@ -116,7 +123,7 @@ const HeaderHome = () => {
                                 </a>
                             </button>
                         </div>
-                        <div className="item">
+                        <div className="item" data-aos="fade-down">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 id="Layer_5"
                                 enableBackground="new 0 0 64 64"
@@ -161,7 +168,7 @@ const HeaderHome = () => {
                                 </a>
                             </button>
                         </div>
-                        <div className="item">
+                        <div className="item" data-aos="fade-left">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 id="Layer_5"
                                 enableBackground="new 0 0 64 64"
@@ -289,7 +296,7 @@ const HeaderHome = () => {
             </div>
             <div className="header--block--all--2 header--block--3">
                 <div className="container">
-                    <div className="block--top">
+                    <div className="block--top" data-aos="fade-down">
                         <h2>
                             02
                             <small>
@@ -298,7 +305,7 @@ const HeaderHome = () => {
                         </h2>
                     </div>
                     <div className="block--bottom">
-                        <div className='card'>
+                        <div className='card' data-aos="fade-right">
                             <img src={men} alt="" />
                             <div className="card--text">
                                 <p>
@@ -311,7 +318,7 @@ const HeaderHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='card'>
+                        <div className='card' data-aos="fade-down">
                             <img src={ladies} alt="" />
                             <div className="card--text">
                                 <p>
@@ -324,7 +331,7 @@ const HeaderHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='card'>
+                        <div className='card' data-aos="fade-up">
                             <img src={cadelta} alt="" />
                             <div className="card--text">
                                 <p>
@@ -337,7 +344,7 @@ const HeaderHome = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='card'>
+                        <div className='card' data-aos="fade-left">
                             <img src={total} alt="" />
                             <div className="card--text">
                                 <p>
@@ -355,7 +362,7 @@ const HeaderHome = () => {
             </div>
             <div className="header--block--all--1 header--block--4">
                 <div className="container">
-                    <div className="block--top">
+                    <div className="block--top" data-aos="fade-down">
                         <h2>
                             03
                             <small>
@@ -364,7 +371,7 @@ const HeaderHome = () => {
                         </h2>
                     </div>
                     <div className="block--bottom">
-                        <div className="item">
+                        <div className="item" data-aos="fade-right">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 width="512px"
                                 height="512px"
@@ -436,7 +443,7 @@ const HeaderHome = () => {
                                 Основа нашего профессионализма - сохранение собственных традиций и использование мировых инноваций.
                             </p>
                         </div>
-                        <div className="item">
+                        <div className="item" data-aos="fade-down">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -528,7 +535,7 @@ const HeaderHome = () => {
                                 Нам не приходится доказывать качество нашей продукции. Ваше признание делает это за нас.
                             </p>
                         </div>
-                        <div className="item">
+                        <div className="item" data-aos="fade-left">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 width="512px"
                                 height="512px"
@@ -622,7 +629,7 @@ const HeaderHome = () => {
             </div>
             <div className="header--block--all--2 header--block--5">
                 <div className="container">
-                    <div className="block--top">
+                    <div className="block--top" data-aos="fade-down">
                         <h2>
                             04
                             <small>
@@ -630,7 +637,7 @@ const HeaderHome = () => {
                             </small>
                         </h2>
                     </div>
-                    <div className="block--bottom">
+                    <div className="block--bottom" data-aos="fade-up">
                         <h1>
                             Пока что новостей нету
                         </h1>

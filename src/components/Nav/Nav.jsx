@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import img1 from "../../assets/logo.png"
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
-import MenuIcon from '@mui/icons-material/Menu';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Nav = () => {
     const [show, setShow] = useState(true)
