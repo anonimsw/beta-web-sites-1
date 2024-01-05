@@ -38,24 +38,24 @@ const Nav = () => {
                     </NavLink>
                     <ul>
                         <li>
-                            <NavLink to=''>
+                            <AnchorLink href='#companiy'>
                                 О КОМПАНИИ
-                            </NavLink>
+                            </AnchorLink>
                         </li>
                         <li>
-                            <NavLink to=''>
+                            <AnchorLink href='#products'>
                                 ПРОДУКЦИЯ
-                            </NavLink>
+                            </AnchorLink>
                         </li>
                         <li>
-                            <NavLink to=''>
+                            <AnchorLink href='#news'>
                                 НОВОСТИ
-                            </NavLink>
+                            </AnchorLink>
                         </li>
                         <li>
-                            <NavLink to=''>
+                            <AnchorLink href='#contacts'>
                                 КОНТАКТЫ
-                            </NavLink>
+                            </AnchorLink>
                         </li>
                     </ul>
                     <div className="bars" onClick={toggleDrawer}>

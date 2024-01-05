@@ -10,7 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const HeaderHome = () => {
-    
+
 
     useEffect(() => {
         AOS.init();
@@ -27,7 +27,7 @@ const HeaderHome = () => {
                 </div>
                 <p></p>
             </div>
-            <div className="header--block--all--1 header--block--2" >
+            <div className="header--block--all--1 header--block--2" id='companiy' >
                 <div className="container ">
                     <div className="block--top">
                         <div className="block--left" data-aos="fade-right"  >
@@ -294,7 +294,7 @@ const HeaderHome = () => {
                     </div>
                 </div>
             </div>
-            <div className="header--block--all--2 header--block--3">
+            <div className="header--block--all--2 header--block--3" id='products'>
                 <div className="container">
                     <div className="block--top" data-aos="fade-down">
                         <h2>
@@ -627,7 +627,7 @@ const HeaderHome = () => {
                     </div>
                 </div>
             </div>
-            <div className="header--block--all--2 header--block--5">
+            <div className="header--block--all--2 header--block--5" id='news'>
                 <div className="container">
                     <div className="block--top" data-aos="fade-down">
                         <h2>
