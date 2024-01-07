@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Footer/Footer.scss'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { HashLink } from 'react-router-hash-link'
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                     <span>
                         Полезные ссылки
                     </span>
-                    <AnchorLink href='#companiy'>
+                    <HashLink smooth to='/#companiy'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -45,8 +46,8 @@ const Footer = () => {
                             </g>
                         </svg>
                         О компании
-                    </AnchorLink>
-                    <AnchorLink href='#products'>
+                    </HashLink>
+                    <HashLink smooth to='/#products'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -70,8 +71,8 @@ const Footer = () => {
                             </g>
                         </svg>
                         Продукция
-                    </AnchorLink>
-                    <AnchorLink href='#news'>
+                    </HashLink>
+                    <HashLink smooth to='/#news'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -95,7 +96,7 @@ const Footer = () => {
                             </g>
                         </svg>
                         Новости
-                    </AnchorLink>
+                    </HashLink>
                 </ul>
                 <ul data-aos="fade-down">
                     <span>
