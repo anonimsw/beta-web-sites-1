@@ -5,6 +5,7 @@ import img1 from "../../assets/logo.png"
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { HashLink } from 'react-router-hash-link'
 
 const Nav = () => {
     const [show, setShow] = useState(true)
@@ -38,24 +39,24 @@ const Nav = () => {
                     </NavLink>
                     <ul>
                         <li>
-                            <AnchorLink href='#companiy'>
+                            <HashLink smooth to='/#companiy'>
                                 О КОМПАНИИ
-                            </AnchorLink>
+                            </HashLink>
                         </li>
                         <li>
-                            <AnchorLink href='#products'>
+                            <HashLink smooth to='/#products'>
                                 ПРОДУКЦИЯ
-                            </AnchorLink>
+                            </HashLink>
                         </li>
                         <li>
-                            <AnchorLink href='#news'>
+                            <HashLink smooth to='/#news'>
                                 НОВОСТИ
-                            </AnchorLink>
+                            </HashLink>
                         </li>
                         <li>
-                            <AnchorLink href='#contacts'>
+                            <HashLink smooth to="/#contacts">
                                 КОНТАКТЫ
-                            </AnchorLink>
+                            </HashLink>
                         </li>
                     </ul>
                     <div className="bars" onClick={toggleDrawer}>
@@ -74,21 +75,21 @@ const Nav = () => {
                             className='bla bla bla'
                         >
 
-                            <AnchorLink href='#companiy'>
+                            <HashLink smooth to='#companiy'>
                                 О КОМПАНИИ
-                            </AnchorLink>
+                            </HashLink>
 
-                            <AnchorLink href='#products'>
+                            <HashLink smooth to='#products'>
                                 ПРОДУКЦИЯ
-                            </AnchorLink>
+                            </HashLink>
 
-                            <AnchorLink href='#news'>
+                            <HashLink smooth to='#news'>
                                 НОВОСТИ
-                            </AnchorLink>
+                            </HashLink>
 
-                            <AnchorLink href='#contacts'>
+                            <HashLink smooth to='#contacts'>
                                 КОНТАКТЫ
-                            </AnchorLink>
+                            </HashLink>
                             <dt>
                                 ВЫБОР ЯЗЫКА:
                                 <ul>

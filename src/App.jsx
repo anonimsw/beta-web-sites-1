@@ -13,7 +13,7 @@ const App = () => {
       <Route path='/cadelta-info' element={<Cadelta />} />
       <Route path='/total-info' element={<Total />} />
       <Route path='/men-info' element={<Men />} />
-      <Route path='/ladies-ifno' element={<Ladies />} />
+      <Route path='/ladies-info' element={<Ladies />} />
     </Routes>
   )
 }

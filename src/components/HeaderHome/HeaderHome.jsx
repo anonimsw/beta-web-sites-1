@@ -313,7 +313,7 @@ const HeaderHome = () => {
                                     <small>
                                         BIO MORAL FOR LADIES
                                     </small>
-                                    <a href="/ladies-ifno">
+                                    <a href="/ladies-info">
                                         <button>
                                             ПОДРОБНЕЕ
                                         </button>
