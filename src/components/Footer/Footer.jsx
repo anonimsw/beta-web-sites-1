@@ -5,8 +5,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Footer = () => {
     return (
         <footer>
-            <div className="container footer--top" id='contacts' data-aos="fade-down">
-                <ul >
+            <div className="container footer--top" id='contacts' >
+                <ul data-aos="fade-down">
                     <span>
                         О компании
                     </span>
@@ -17,7 +17,7 @@ const Footer = () => {
                         производителя.
                     </p>
                 </ul>
-                <ul >
+                <ul data-aos="fade-down">
                     <span>
                         Полезные ссылки
                     </span>
@@ -97,7 +97,7 @@ const Footer = () => {
                         Новости
                     </AnchorLink>
                 </ul>
-                <ul >
+                <ul data-aos="fade-down">
                     <span>
                         Контактные данные
                     </span>

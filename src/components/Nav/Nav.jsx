@@ -73,18 +73,22 @@ const Nav = () => {
                             direction='right'
                             className='bla bla bla'
                         >
-                            <span>
+
+                            <AnchorLink href='#companiy'>
                                 О КОМПАНИИ
-                            </span>
-                            <span>
+                            </AnchorLink>
+
+                            <AnchorLink href='#products'>
                                 ПРОДУКЦИЯ
-                            </span>
-                            <span>
+                            </AnchorLink>
+
+                            <AnchorLink href='#news'>
                                 НОВОСТИ
-                            </span>
-                            <span>
+                            </AnchorLink>
+
+                            <AnchorLink href='#contacts'>
                                 КОНТАКТЫ
-                            </span>
+                            </AnchorLink>
                             <dt>
                                 ВЫБОР ЯЗЫКА:
                                 <ul>

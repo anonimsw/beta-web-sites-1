@@ -117,11 +117,6 @@ const HeaderHome = () => {
                                     Год на Рынке
                                 </small>
                             </p>
-                            <button>
-                                <a href="">
-                                    ПОДРОБНЕЕ
-                                </a>
-                            </button>
                         </div>
                         <div className="item" data-aos="fade-down">
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -162,11 +157,6 @@ const HeaderHome = () => {
                                     Завод
                                 </small>
                             </p>
-                            <button>
-                                <a href="">
-                                    ПОДРОБНЕЕ
-                                </a>
-                            </button>
                         </div>
                         <div className="item" data-aos="fade-left">
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -285,11 +275,6 @@ const HeaderHome = () => {
                                     Страна Экспорта
                                 </small>
                             </p>
-                            <button>
-                                <a href="">
-                                    ПОДРОБНЕЕ
-                                </a>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -312,9 +297,12 @@ const HeaderHome = () => {
                                     <small>
                                         BIO MORAL FOR MEN
                                     </small>
-                                    <button>
-                                        ПОДРОБНЕЕ
-                                    </button>
+                                    <a href="/men-info">
+                                        <button>
+                                            ПОДРОБНЕЕ
+                                        </button>
+
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -325,9 +313,11 @@ const HeaderHome = () => {
                                     <small>
                                         BIO MORAL FOR LADIES
                                     </small>
-                                    <button>
-                                        ПОДРОБНЕЕ
-                                    </button>
+                                    <a href="/ladies-ifno">
+                                        <button>
+                                            ПОДРОБНЕЕ
+                                        </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -338,9 +328,11 @@ const HeaderHome = () => {
                                     <small>
                                         CADELTA
                                     </small>
-                                    <button>
-                                        ПОДРОБНЕЕ
-                                    </button>
+                                    <a href="/cadelta-info">
+                                        <button>
+                                            ПОДРОБНЕЕ
+                                        </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -349,11 +341,13 @@ const HeaderHome = () => {
                             <div className="card--text">
                                 <p>
                                     <small>
-                                        CADELTA
+                                        CADELTA TOTAL
                                     </small>
-                                    <button>
-                                        ПОДРОБНЕЕ
-                                    </button>
+                                    <a href="/total-info">
+                                        <button>
+                                            ПОДРОБНЕЕ
+                                        </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
