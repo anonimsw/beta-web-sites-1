@@ -75,19 +75,19 @@ const Nav = () => {
                             className='bla bla bla'
                         >
 
-                            <HashLink smooth to='#companiy'>
+                            <HashLink smooth to='/#companiy'>
                                 О КОМПАНИИ
                             </HashLink>
 
-                            <HashLink smooth to='#products'>
+                            <HashLink smooth to='/#products'>
                                 ПРОДУКЦИЯ
                             </HashLink>
 
-                            <HashLink smooth to='#news'>
+                            <HashLink smooth to='/#news'>
                                 НОВОСТИ
                             </HashLink>
 
-                            <HashLink smooth to='#contacts'>
+                            <HashLink smooth to='/#contacts'>
                                 КОНТАКТЫ
                             </HashLink>
                             <dt>
