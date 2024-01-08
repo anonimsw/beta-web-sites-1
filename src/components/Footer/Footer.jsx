@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Footer/Footer.scss'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { HashLink } from 'react-router-hash-link'
+
 
 const Footer = () => {
     return (
@@ -103,7 +103,7 @@ const Footer = () => {
                         Контактные данные
                     </span>
                     <p>
-                        г.Ташкент, Талимаржон улица 14.
+                        Ташкент, Талимаржон улица 14.
                     </p>
                     <a href='tel:+998977260528'>
                         +998 97 726 05 28

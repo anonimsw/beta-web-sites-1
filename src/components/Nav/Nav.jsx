@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 import img1 from "../../assets/logo.png"
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { HashLink } from 'react-router-hash-link'
 
 const Nav = () => {
